@@ -1,0 +1,9 @@
+Failed to find real location of C:\DM\python\python.exe
+test_failed_gate_still_cleans_up_and_returns_failure (test_verify_isolation.VerificationIsolationTests.test_failed_gate_still_cleans_up_and_returns_failure) ... ok
+test_fast_and_full_run_inside_disposable_project (test_verify_isolation.VerificationIsolationTests.test_fast_and_full_run_inside_disposable_project)
+Child processes see no study inputs; their writes never reach source. ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.614s
+
+OK

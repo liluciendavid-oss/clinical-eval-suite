@@ -1,0 +1,49 @@
+Failed to find real location of C:\DM\python\python.exe
+verify_all.py — 全部验收门（临时副本内的 mock / DEMO，不产生任何真实结论）
+
+[run] 题库校验（--strict：ERROR 0 且 WARN 0） …
+      PASS　0.1s　ERROR 0 | WARN 0
+[run] 词典与 error_taxonomy.md 同步 …
+      PASS　0.1s　
+[run] 缺陷注入器生成阳性/阴性对照 …
+      PASS　0.1s　注入缺陷实例 66 个
+[run] 规则层自检（recall>0 且阴性 confirmed=0 且无越权升级） …
+      PASS　0.2s　confirmed 数：0
+[run] 评分质控器自检（19 个阳性用例） …
+      PASS　0.1s　用例全部按预期检出
+[run] rubric 查表探针（无空洞、无重叠） …
+      PASS　0.1s　
+[run] 统计实现自检（α/κ/bootstrap 的已知答案夹具） …
+      PASS　0.6s　
+[run] 盲测流水线：生成 DEMO 回答 …
+      PASS　0.1s　
+[run] 盲测流水线：匿名化 + block 隔离校验 …
+      PASS　0.1s　
+[run] 盲测流水线：重测包（不同 seed 与编号体系） …
+      PASS　0.1s　
+[run] judge 逐项评分输入生成（pointwise，文件名匿名） …
+      PASS　0.2s　
+[run] judge 面板外校验（同源模型必须被拒） …
+      PASS　0.1s　
+[run] 报告渲染（DEMO，含 5 张图与 SUMMARY.md） …
+      PASS　4.4s　confirmed 数：0
+
+========================================================================
+验收门汇总
+========================================================================
+  [PASS] 题库校验（--strict：ERROR 0 且 WARN 0）
+  [PASS] 词典与 error_taxonomy.md 同步
+  [PASS] 缺陷注入器生成阳性/阴性对照
+  [PASS] 规则层自检（recall>0 且阴性 confirmed=0 且无越权升级）
+  [PASS] 评分质控器自检（19 个阳性用例）
+  [PASS] rubric 查表探针（无空洞、无重叠）
+  [PASS] 统计实现自检（α/κ/bootstrap 的已知答案夹具）
+  [PASS] 盲测流水线：生成 DEMO 回答
+  [PASS] 盲测流水线：匿名化 + block 隔离校验
+  [PASS] 盲测流水线：重测包（不同 seed 与编号体系）
+  [PASS] judge 逐项评分输入生成（pointwise，文件名匿名）
+  [PASS] judge 面板外校验（同源模型必须被拒）
+  [PASS] 报告渲染（DEMO，含 5 张图与 SUMMARY.md）
+------------------------------------------------------------------------
+全部 13 门通过。
+临时验收产物已清理；正式评测进度与待办请查看 docs/release_status.md。

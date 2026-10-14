@@ -1,0 +1,13 @@
+# 运行环境：Python >= 3.10（开发与验证环境为 Python 3.14.3）
+#
+# 刻意只依赖三个库：
+#   - schema.py / blind_shuffle.py / mock_models.py / rule_check.py 只用标准库
+#   - 统计与绘图才需要下面三个
+# 不引入任何需要 GPU、需要训练、或需要联网请求的组件。
+#
+# 已实测通过的版本组合（2026-10-02，Windows / Python 3.14.3）：
+#   pandas 3.0.2   numpy 2.4.3   matplotlib 3.10.8
+
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
